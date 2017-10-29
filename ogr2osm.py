@@ -720,7 +720,7 @@ def output():
 data = openData(source)
 longWaysFromPolygons = set()
 parseData(data)
-mergePoints()
+#mergePoints()
 mergeWayPoints()
 if options.maxNodesPerWay >= 2:
     splitLongWays(options.maxNodesPerWay, longWaysFromPolygons)
